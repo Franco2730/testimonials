@@ -1,14 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+import Testimonio from '../componentes/Testimonio';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1 className='title1'>Testimonials from Glam Seniors about programming</h1>
-    </>
-  )
+    <div className='App'>
+      <Testimonio />
+    </div> 
+  );
 }
 
-export default App
+export default App;
